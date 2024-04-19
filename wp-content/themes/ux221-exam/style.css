@@ -6,3 +6,11 @@ Template:       twentytwentythree
 
 (optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
 */
+:root {
+  --primary-color: #c42b63; /* Primary color */
+  --font-family: 'Arial', sans-serif; /* Font family */
+}
+body {
+  font-family: var(--font-family);
+  color: var(--primary-color);
+}
